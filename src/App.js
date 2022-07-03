@@ -54,7 +54,10 @@ function App() {
           </div>
           <div>
             <label htmlFor="message">Mensagem</label>
-            <textarea id="message" onChange={(e) => setMessage(e.target.value)} />
+            <textarea id="message" 
+              spellcheck="false"
+              onChange={(e) => setMessage(e.target.value)} 
+            />
           </div>
           <div>
             <label></label>
