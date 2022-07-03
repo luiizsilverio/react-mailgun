@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+form > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+form > div > label {
+  margin: 1rem;
+}
+
+form > div > input, 
+form > div > textarea {
+  padding: 0.5rem;
+  min-width: 20rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form > div > button {
+  width: 170px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 8px 16px;
+  background-color: lightgreen;
+  transition: all 0.2s;
+}
+
+form > div > button:hover {
+  filter: brightness(0.7);
+  transform: scale(0.98);
+}
+
+form > div > button:active {
+  filter: brightness(0.7);
+  transform: scale(0.95);
+}
