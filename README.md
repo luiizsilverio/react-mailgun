@@ -12,7 +12,7 @@
 Aplicação de envio de e-mail utilizando o serviço gratuito [MAILGUN](https://www.mailgun.com).<br />
 Possui um back-end desenvolvido em __Node.js__, com uma única rota POST /api/email, que faz o envio de e-mail por meio da biblioteca __Mailgun-js__.<br />
 Também possui uma aplicação front-end em React, com um formulário de e-mail simples e acesso à API por meio da biblioteca __Axios__.<br />
-Desenvolvido durante a Live [Send Email Tutorial 2022 [React & Node & Mailgun](https://www.youtube.com/watch?v=xYuW_XDvYyQ), do professor Basir.<br />
+Desenvolvido durante a Live [Send Email Tutorial 2022 (React & Node & Mailgun)](https://www.youtube.com/watch?v=xYuW_XDvYyQ), do professor Basir.<br />
 
 ## :hammer_and_wrench: Tecnologias
 * __Back-end__
